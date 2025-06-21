@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+    id 'io.qameta.allure' version '2.11.2' // Add Allure plugin
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.testng:testng:7.9.0'  // Use the latest TestNG version
+    testImplementation 'io.rest-assured:rest-assured:5.4.0' // RestAssured for API testing
+    testImplementation 'org.hamcrest:hamcrest:2.2'         // For assertions
+    testImplementation 'io.qameta.allure:allure-testng:2.25.0' // Allure TestNG adapter
+}
+
+test {
+    useTestNG()
+    testLogging.showStandardStreams = true
+}
