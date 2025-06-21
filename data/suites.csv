@@ -1,0 +1,11 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","92","Verify GET /posts/1 returns expected data","Gradle suite","Sat Jun 21 09:03:26 UTC 2025","passed","Sat Jun 21 09:03:26 UTC 2025","AllureAdvancedTest","Gradle test","AllureAdvancedTest","testGetRequest"
+"","1","test1","Gradle suite","Sat Jun 21 09:03:26 UTC 2025","passed","Sat Jun 21 09:03:26 UTC 2025","SimpleTest","Gradle test","SimpleTest","test1"
+"","0","testString","Gradle suite","Sat Jun 21 09:03:26 UTC 2025","passed","Sat Jun 21 09:03:26 UTC 2025","TestExample","Gradle test","TestExample","testString"
+"Verify POST /posts API creates a new post successfully","175","testPostRequest","Gradle suite","Sat Jun 21 09:03:26 UTC 2025","passed","Sat Jun 21 09:03:26 UTC 2025","APITest","Gradle test","APITest","testPostRequest"
+"This test attempts to log into the website using a login and a password. Fails if any error happens.
+
+Note that this test does not test 2-Factor Authentication.","154","testCatFact","Gradle suite","Sat Jun 21 09:03:26 UTC 2025","passed","Sat Jun 21 09:03:27 UTC 2025","allure.APITest","Gradle test","allure.APITest","testCatFact"
+"","0","testAddition","Gradle suite","Sat Jun 21 09:03:26 UTC 2025","passed","Sat Jun 21 09:03:26 UTC 2025","TestExample","Gradle test","TestExample","testAddition"
+"Verify GET /posts/1 API returns expected response","2492","testGetRequest","Gradle suite","Sat Jun 21 09:03:23 UTC 2025","passed","Sat Jun 21 09:03:26 UTC 2025","APITest","Gradle test","APITest","testGetRequest"
+"","256","Verify POST /posts creates new data","Gradle suite","Sat Jun 21 09:03:26 UTC 2025","passed","Sat Jun 21 09:03:26 UTC 2025","AllureAdvancedTest","Gradle test","AllureAdvancedTest","testPostRequest"
